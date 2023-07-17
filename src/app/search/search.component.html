@@ -1,1 +1,7 @@
-<p>search works!</p>
+<div class="wrapper">
+  <form [formGroup]="searchForm" class="search">
+    <input type="search" formControlName="value" class="search__input">
+    <button type="submit" (click)="search()" class="search__submit">&nbsp;</button>
+  </form>
+</div>
+

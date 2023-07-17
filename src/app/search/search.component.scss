@@ -1,0 +1,16 @@
+.search{
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+
+  &__input {
+    line-height: 1rem;
+    padding: .25rem;
+  }
+
+  &__submit {
+    line-height: 1.25rem;
+    transform: translateX(-1.25rem);
+  }
+}
